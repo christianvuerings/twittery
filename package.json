@@ -1,0 +1,21 @@
+{
+  "name": "twittery",
+  "version": "0.0.1",
+  "description": "Scrape a twitter feed",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/christianv/twittery.git"
+  },
+  "keywords": [
+    "twitter",
+    "scrape",
+    "twittery"
+  ],
+  "author": "Christian Vuerings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianv/twittery/issues"
+  },
+  "homepage": "https://github.com/christianv/twittery"
+}
