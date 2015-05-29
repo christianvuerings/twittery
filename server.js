@@ -15,7 +15,7 @@ var parseTweets = function(body) {
 
   var tweets = [];
 
-  $('.js-tweet').each(function(i, element) {
+  $('.tweet').each(function(i, element) {
     var id = $(this).attr('data-tweet-id');
     var time = $('.js-short-timestamp', this).attr('data-time');
     var text = $('.js-tweet-text', this).text();
