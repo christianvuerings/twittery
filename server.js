@@ -28,6 +28,7 @@ var parseTweets = function(body) {
     });
   });
 
+  tweets.pop();
   return tweets;
 };
 
@@ -72,5 +73,5 @@ app.get('/:id?', function(req, res){
 
 });
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3100;
 app.listen(port);
