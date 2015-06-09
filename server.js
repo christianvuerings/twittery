@@ -21,14 +21,15 @@ var parseTweets = function(body) {
     var text = $('.js-tweet-text', this).text();
     text = text.replace('…', '');
     text = text.trim();
-    tweets.push({
+    if(text){
+      tweets.push({
       createdAt: parseInt(time, 10),
       id: id,
       text: text
     });
+    }
   });
 
-  tweets.pop();
   return tweets;
 };
 
